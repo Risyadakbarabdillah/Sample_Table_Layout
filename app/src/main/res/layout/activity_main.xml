@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:text="@string/loginForm"
+            android:text="@string/login"
             android:textColor="@color/colorgreen"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -50,13 +50,13 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/userName"
+            android:id="@+id/edMail"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
             android:background="@color/colorgreen"
-            android:hint="@string/tUsername"
+            android:hint="edEmail"
             android:importantForAutofill="no"
             android:inputType="text"
             android:padding="5dp"
@@ -78,15 +78,15 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/edPassword"
             android:layout_height="wrap_content"
             android:layout_column="1"
+            android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
-            android:hint="@string/tUsername"
+            android:hint="edPassword"
             android:importantForAutofill="no"
             android:inputType="textPassword"
-            android:padding="5dp"
-            android:layout_marginStart="10dp" />
+            android:padding="5dp" />
     </TableRow>
 
 
@@ -97,12 +97,12 @@
         android:gravity="center" >
 
         <Button
-            android:id="@+id/loginBtn"
+            android:id="@+id/btSignin"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_span="2"
             android:background="@color/colorgreen"
-            android:text="@string/login"
+            android:text="btSignin"
             android:textSize="20sp"
             android:textStyle="bold" />
     </TableRow>

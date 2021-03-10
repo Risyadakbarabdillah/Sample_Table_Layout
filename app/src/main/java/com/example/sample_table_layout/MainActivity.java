@@ -1,4 +1,4 @@
-package com.example.sample_table_layout;
+package com.example.sampletablelayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(.layout.activity_main);
     }
 }
